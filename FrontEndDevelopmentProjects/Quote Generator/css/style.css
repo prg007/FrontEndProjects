@@ -1,0 +1,140 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  background-color: #1ad1c5;
+}
+#body {
+  opacity: 0;
+
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -ms-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in;
+  transition-delay: 0.5s;
+}
+
+#body.load {
+  opacity: 1;
+}
+
+div {
+  position: relative;
+}
+
+#quote-box {
+  border-radius: 10px;
+  position: relative;
+  margin: 10px auto;
+  width: 100%;
+  padding: 4% 5%;
+  display: table;
+  background-color: #fffee5;
+  color: #1ad1c5;
+  border: 1px solid black;
+}
+
+#quote {
+  text-align: center;
+  font-family: "Lobster";
+  font-size: 7vw;
+}
+
+#author {
+  text-align: right;
+  margin: 0px;
+  font-family: "Lobster";
+  font-size: 4vw;
+}
+
+#quote-button-div {
+  text-align: center;
+  font-family: "Lobster";
+}
+
+#social-media {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.quote-button {
+  background-color: #fffee5;
+  color: #1ad1c5;
+  font-size: 4vw;
+  border: 1px solid black;
+  position: relative;
+}
+
+.quote-button:hover {
+  color: #1ad1c5;
+  transition: 0.5s;
+}
+
+#twitter-button {
+  background-color: #fffee5;
+  color: #1ad1c5;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+  transition: 0.5s;
+}
+
+#twitter-button:hover {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+#email-button {
+  background-color: #fffee5;
+  color: #1ad1c5;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+#email-button:hover {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+#hrs {
+  margin: 20% 0px 0px 0px;
+  text-align: center;
+  bottom: 0;
+  color: #fffee5;
+}
+
+/* for large screens */
+@media screen and (min-width: 860px) {
+  #quote-box {
+    width: 840px;
+    padding-bottom: 1%;
+  }
+  #quote {
+    font-size: 45px;
+  }
+  #author {
+    font-size: 22px;
+  }
+  .quote-button {
+    font-size: 35px;
+  }
+  #hrs {
+    margin: 165px 0px 0px 0px;
+  }
+}
+
+/* for small screens */
+@media screen and (max-width: 450px) {
+  #quote-box {
+    width: 100%;
+  }
+  .quote-button {
+    font-size: 35px;
+  }
+}
