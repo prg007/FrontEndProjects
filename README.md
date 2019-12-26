@@ -28,6 +28,6 @@ Traditionally, people could visit one Wikipedia page at a time or view search re
  
 ## Wall Clock
 
-This is a random wall clock that displays the current time. You can add it as a short snippet to any project. 
+This is a random wall clock that displays the current time. You can add it as a short snippet to any page. 
 
   ![wall_clock](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/Wall_Clock.png)
