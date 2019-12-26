@@ -26,3 +26,8 @@ Traditionally, people could visit one Wikipedia page at a time or view search re
   ![typing_speed_tester](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/wiki_links.png)
   
  
+## Wall Clock
+
+This is a random wall clock that displays the current time. You can add it as a short snippet to any project. 
+
+  ![wall_clock](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/Wall_Clock.png)
