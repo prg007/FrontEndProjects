@@ -9,6 +9,12 @@ This project is an electronic version of a drum set. Users can switch between ro
 
 ## Random Quote Generator
 
-Built a random quote generator which can be added as a short snippet to any blog or website. Visitors click on the Generate Quote button to get a quote pulled from a predefined mashape Quotes API. Visitors have the flexibility to generate as many different quotes as they want , view it from any type of device(mobile,tablet,desktopp) and have the freedom to share this code via social media and email. Tools Used : JSon, JavaScript, HTML and CSS. The screenshot is attached below
+Built a random quote generator which can be added as a short snippet to any blog or website. Visitors click on the Generate Quote button to get a quote pulled from a predefined mashape Quotes API. Visitors have the flexibility to generate as many different quotes as they want , view it from any type of device(mobile,tablet,desktopp) and have the freedom to share this quote via social media and email. Tools Used : JSon, JavaScript, HTML and CSS. The screenshot is attached below
 
    ![random_quote_player](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/random_quote.png)
+
+## Typing Speed Tester
+
+This is a Typing Speed Tester wherein a random string of text is displayed on the screen and users are timed depending on how much time it takes them to type that exact piece of text.
+
+  ![typing_speed_tester](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/Typing_Speed_Generator.png)
