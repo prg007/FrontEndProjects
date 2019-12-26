@@ -15,6 +15,14 @@ Built a random quote generator which can be added as a short snippet to any blog
 
 ## Typing Speed Tester
 
-This is a Typing Speed Tester wherein a random string of text is displayed on the screen and users are timed depending on how much time it takes them to type that exact piece of text.
+This is a Typing Speed Tester wherein a random string of text is displayed on the screen and users are timed depending on how much time it takes them to type that exact piece of text. The screenshot is attached below.
 
   ![typing_speed_tester](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/Typing_Speed_Generator.png)
+
+## Wikipedia Search Results
+
+Traditionally, people could visit one Wikipedia page at a time or view search results with little information. This app provides a nice summary of 10 results thereby making research and project works easier for students. Users can also choose to jump to any random Wikipedia page. Tools Used : MediaWiki API, Request JSON from a remote server using JQuery AJAX Methods.
+
+  ![typing_speed_tester](/FrontEndDevelopmentProjects/Front_End_Project_Screenshots/wiki_links.png)
+  
+ 
